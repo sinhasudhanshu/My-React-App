@@ -1,11 +1,12 @@
-function Add()
+function Add(props)
 {
     // console.log("Add");
     return <h2>
-        Num a= 4,
-        Num b= 5,
-    
-        Sum c = 9  
+       <h1> {props.a}</h1>
+       <h1> {props.b}</h1>
+       <h1> {Number( props.a) + Number(props.b)}</h1>
+       
+        
     </h2>;
 
 }
