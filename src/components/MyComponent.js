@@ -1,10 +1,12 @@
 import SubComponent from "./SubComponent";
+import './MyComponent.css';
 function MyComponent(props){
-    return<h2>
+    return<div className="myclass">
 
         MyComponent
         <SubComponent></SubComponent>
-    </h2>
+        <img  src="fifa.jpg"/>
+    </div>
 
     
 }
