@@ -8,13 +8,14 @@ import './App.css';
 //import VsjItem from './components/VsjItem';
 //import Add from './components/Add';
 //import Subtract from './components/Subtract';
+import VsjCounter from './components/VsjCounter';
 import MyComponent from './components/MyComponent';
 function App() {
   return (
     <center>                           
       <h1>Hello React</h1>
       <img src='logo192.png'/>
-      
+      <VsjCounter/>
     <MyComponent/>
     </center>
   );
