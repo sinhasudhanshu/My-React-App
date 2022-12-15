@@ -18,6 +18,7 @@ const VsjCounter = (props) =>{
         <h2>{num1}</h2>
 	  <h2>{num2}</h2>
 	  <h2>{Number(num1) + Number(num2)}</h2>
+      <h2>{Number(num1) - Number(num2)}</h2>
 	</p>;
     
 }
