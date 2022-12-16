@@ -16,8 +16,6 @@ const Addition = () => {
         <input type="Number" onChange={event => setNum1(event.target.value)} />
         <input type="Number" onChange={event => setNum2(event.target.value)} />
 
-
-
     </p>
 
 }
