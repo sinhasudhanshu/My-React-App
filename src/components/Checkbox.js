@@ -9,7 +9,6 @@ const Checkbox = () => {
 
         <div onChange={event => setCheckbox(event.target.value)}>
         <input type="checkbox" value="1" name="option"/>Addition    
-        <input type="checkbox" value="2" name="option"/>Subtract
         </div>
 
         <h2>{checkbox}</h2>
