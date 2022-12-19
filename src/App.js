@@ -16,7 +16,7 @@ import { useState } from 'react';
 //import VsjHihello from './components/VsjHihello';
 //import RadioButton from './components/RadioButton';
 //import Checkbox from './components/Checkbox';
-import VsjA from './components/VsjA';
+//import VsjA from './components/VsjA';
 import VsjText from './components/VsjText';
 function App(props) {
   const [mydata, setMyData] = useState(0);
