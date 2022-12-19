@@ -41,7 +41,7 @@ function App(props) {
     <div className="App">
       <h2>From Component A {mydata}</h2>
       <h2>From Component B {mytext}</h2>
-      <VsjText onSaveData={SaveData} onSaveText={SaveText} />  //SaveData m VSjA se value input ho rahi h //
+      <VsjText onSaveData={SaveData} onSaveText={SaveText} /> 
 
     </div>
   );
