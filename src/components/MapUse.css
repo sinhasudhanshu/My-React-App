@@ -1,0 +1,12 @@
+.myMap{
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: blue;
+    border-width: 10px;
+    border-style: double;
+
+}
+ul>li{
+    color: blue;
+    width: fit-content;
+}
