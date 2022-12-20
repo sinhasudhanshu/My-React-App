@@ -18,12 +18,13 @@ import MyComponent from './components/MyComponent';
 //import Checkbox from './components/Checkbox';
 //import VsjA from './components/VsjA';
 //import VsjText from './components/VsjText';
-import VsjMultipleObject from './components/VsjMultipleObject';
+//import VsjMultipleObject from './components/VsjMultipleObject';
+import ObjectSimpleInterest from './components/ObjectSimpleInterest';
 function App(props) {
  return(
      <center>
   <h2>MultipleObject</h2>
-  <VsjMultipleObject/>
+  <ObjectSimpleInterest/>
   <MyComponent/>
 
   </center>
