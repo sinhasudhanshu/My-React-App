@@ -34,6 +34,8 @@ const VsjMultipleObject=()=>{
         <input type="text" onChange={sumN1}/>
         <label>N2</label>
         <input type="text" onChange={sumN2}/>
+        <br></br>
+        {sumData.n1 + sumData.n2}
     </form>
 
 }
