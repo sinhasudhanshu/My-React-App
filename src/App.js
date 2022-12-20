@@ -10,7 +10,7 @@ import { useState } from 'react';
 //import Add from './components/Add';
 //import Subtract from './components/Subtract';
 //import VsjCounter from './components/VsjCounter';
-import MyComponent from './components/MyComponent';
+//import MyComponent from './components/MyComponent';
 //import DropDown from './components/DropDown';
 //import Addition from './components/Addition';
 //import VsjHihello from './components/VsjHihello';
@@ -26,7 +26,7 @@ function App(props) {
      <center>
   <h2>MultipleObject</h2>
    <MapUse data={[1,2,3,4]}/>
-  <MyComponent/>
+  
 
   </center>
  );
