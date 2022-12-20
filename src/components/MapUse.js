@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const MapUse = (props) => {
-    const number = [1,2,3];
+    const number = props.data;
     const listItem = number.map((number) =>
     <li>{2*number}</li>
     );
@@ -9,7 +9,7 @@ const MapUse = (props) => {
         <div>
             <h2>List of Number</h2>
             <ul>{listItem}</ul>
-
+            
         </div>
     )
 

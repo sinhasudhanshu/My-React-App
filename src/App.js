@@ -25,7 +25,7 @@ function App(props) {
  return(
      <center>
   <h2>MultipleObject</h2>
-  <MapUse/>
+   <MapUse data={[1,2,3,4]}/>
   <MyComponent/>
 
   </center>
