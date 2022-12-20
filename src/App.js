@@ -19,12 +19,13 @@ import MyComponent from './components/MyComponent';
 //import VsjA from './components/VsjA';
 //import VsjText from './components/VsjText';
 //import VsjMultipleObject from './components/VsjMultipleObject';
-import ObjectSimpleInterest from './components/ObjectSimpleInterest';
+//import ObjectSimpleInterest from './components/ObjectSimpleInterest';
+import MapUse from './components/MapUse';
 function App(props) {
  return(
      <center>
   <h2>MultipleObject</h2>
-  <ObjectSimpleInterest/>
+  <MapUse/>
   <MyComponent/>
 
   </center>
