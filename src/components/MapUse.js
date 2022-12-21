@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import './MapUse.css';
-const MapUse = (props) => {
-    const number = props.data;
+const MapUse = () => {
+    const number = [{id:1,name:"A",pic:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sachin_Tendulkar_at_MRF_Promotion_Event.jpg/330px-Sachin_Tendulkar_at_MRF_Promotion_Event.jpg"},{id:2,name:"B",pic:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sachin_Tendulkar_at_MRF_Promotion_Event.jpg/330px-Sachin_Tendulkar_at_MRF_Promotion_Event.jpg"}]
     const listItem = number.map((number) =>
    
-    <li>{2*number}</li>
+    <li>{number.id},{number.name}
+    <img src={number.pic}/>
+    </li>
    
     );
     return(
@@ -12,7 +14,6 @@ const MapUse = (props) => {
             <h2>List of Number</h2>
             <ul>{listItem}</ul>
             <img  src="fifa.jpg"/>
-            
         </div>
     )
 

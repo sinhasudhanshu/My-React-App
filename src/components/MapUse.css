@@ -10,3 +10,6 @@ ul>li{
     color: blue;
     width: fit-content;
 }
+img{
+    width: 100px;
+}

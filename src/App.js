@@ -20,15 +20,14 @@ import { useState } from 'react';
 //import VsjText from './components/VsjText';
 //import VsjMultipleObject from './components/VsjMultipleObject';
 //import ObjectSimpleInterest from './components/ObjectSimpleInterest';
-//import MapUse from './components/MapUse';
-import MapCities from './components/MapCities';
+import MapUse from './components/MapUse';
+//import MapCities from './components/MapCities';
 function App(props) {
  return(
      <center>
   <h2>MultipleObject</h2>
-   <MapCities data={["Cario","Delhi","Beijing"]}/>
+   <MapUse/>
   
-
   </center>
  );
 }
