@@ -5,9 +5,9 @@ const ObjectSimpleInterest=()=>{
 
     const[sumData, setSum] = useState({
 
-        p:0,
-        t:0,
-        r:0
+        p:1,
+        t:2,
+        r:3
     });
 
     const sumN1=(event)=>
