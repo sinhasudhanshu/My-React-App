@@ -1,10 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+//import ArrayTrain from './components/ArrayTrain';
 //import SimpleInterest from './components/SimpleInterest';
 //import Calculator from './components/Calculator';
-//import Add from './components/Add';
-//import Hello from './components/Hello';
 //import Sudhanshu from'./components/Sudhanshu';
 //import VsjItem from './components/VsjItem';
 //import Add from './components/Add';
@@ -20,13 +19,14 @@ import { useState } from 'react';
 //import VsjText from './components/VsjText';
 //import VsjMultipleObject from './components/VsjMultipleObject';
 //import ObjectSimpleInterest from './components/ObjectSimpleInterest';
-import MapUse from './components/MapUse';
+//import MapUse from './components/MapUse';
 //import MapCities from './components/MapCities';
+import Train from './components/Train';
 function App(props) {
  return(
      <center>
   <h2>MultipleObject</h2>
-   <MapUse/>
+   <Train/>
   
   </center>
  );
