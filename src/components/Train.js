@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './Train.css';
 const Train = () => {
 
     const [trainData, setTrain] = useState([{ trainno: 1253, trainname: "shivganga" }])
@@ -19,7 +20,7 @@ const Train = () => {
         console.log("Object Changed");
     };
     return (
-        <div className="myMap">
+        <div className="myTrain">
             <h2>List of Train</h2>
             <h2>{trainData[0].trainname }</h2>
             <h2>{trainData[0].trainno }</h2>
@@ -29,7 +30,7 @@ const Train = () => {
             <label>Train No</label>
             <input type="number" onChange={sumN2} />
             <br></br>
-            <img src="fifa.jpg" />
+            <img src="train.jpg" />
         </div>
     )
 
