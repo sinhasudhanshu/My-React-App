@@ -3,16 +3,18 @@ const Train = () => {
 
     const [trainData, setTrain] = useState([{ trainno: 1253, trainname: "shivganga" }])
     const sumN1 = (event) => {
+        console.log(trainData[0].trainno);
         setTrain(
-            ...trainData
-            [{ trainno: 1253, trainname: event.target.value }]
+            
+            [{ trainname: event.target.value,trainno:trainData[0].trainno }]
         );
         console.log("Object Changed");
     };
     const sumN2 = (event) => {
+        console.log(trainData[0].trainname);
         setTrain(
-            ...trainData
-            [{ trainno:event.target.value }]
+            
+            [{ trainno:event.target.value,trainname:trainData[0].trainname }]
         );
         console.log("Object Changed");
     };
