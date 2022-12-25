@@ -1,6 +1,7 @@
 import { useState } from "react"
 import './Train.css';
 const Train = () => {
+    
 
     const [trainData, setTrain] = useState([{ trainno: 1253, trainname: "shivganga" }])
     const sumN1 = (event) => {
@@ -18,6 +19,7 @@ const Train = () => {
             [{ trainno:event.target.value,trainname:trainData[0].trainname }]
         );
         console.log("Object Changed");
+
     };
     return (
         <div className="myTrain">
@@ -30,9 +32,11 @@ const Train = () => {
             <label>Train No</label>
             <input type="number" onChange={sumN2} />
             <br></br>
+
             <img src="train.jpg" />
         </div>
     )
-
 };
+
+
 export default Train;
