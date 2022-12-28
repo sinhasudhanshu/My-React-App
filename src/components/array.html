@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Elements</title>
+    <script>
+let a=[];
+function show()
+{
+let d=document.getElementById("d");
+let output="";
+for(let i=0;i<=a.length-1;i++)
+{
+    output+="," + a[i];
+}
+d.innerHTML=output;
+}
+function doUnShift()
+{
+    a.unshift(a.length);
+    show();
+}
+function doPush()
+{
+    a.push(a.length);
+    show();
+}
+function doPop()
+{
+    a.pop();
+    show();
+}
+function doShift()
+{
+    a.shift();
+    show();
+}
+    </script>
+</head>
+<body>
+    <div id="d"></div>
+    <input type="button" onclick="doShift()" value="Shift">
+    <input type="button" onclick="doUnShift()" value="Unshift">
+    <input type="button" onclick="doPop()" value="Pop">
+    <input type="button" onclick="doPush()" value="Push">
+    
+</body>
+</html>
