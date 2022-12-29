@@ -29,8 +29,8 @@ const UpdateBank = () => {
             Account No   <input type="text" ref={inputAccontNo} />
             <br/>
            Name   <input type="text" ref={inputName} />
-            <button onClick={updateName}>Update name</button>
-            <button onClick={addName}>Add name</button>
+            <button onClick={updateName}>Update accout</button>
+            <button onClick={addName}>Add accout</button>
             {data.map(current => {
                 return (
                     <div key={current.accountno}>
