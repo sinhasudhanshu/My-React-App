@@ -26,12 +26,12 @@ const addBook = () => {
     setData(newBook);
 };
 const removeBook=()=>{
-    data.pop({subject:(inputSubject.current.value),book:inputBook.current.value});
+    data.pop({subject:(inputSubject.current.value)});
     const newBook= data.map(current =>{
         return current;
     });
     setData(newBook);
-};
+}; 
 return(
     <div>
         Subject <input type="text" ref={inputSubject}/>
