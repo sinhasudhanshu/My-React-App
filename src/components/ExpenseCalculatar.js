@@ -28,9 +28,9 @@ const ExpenseCalculatar = () => {
         return current;
     });
     setData(newexpense);
-    }
+    };
     return (
-        <div>
+        <div className="myExpense">
             
             ExpenseID <input type="number" ref={inputexpenseid} />
             <br />
@@ -46,7 +46,7 @@ const ExpenseCalculatar = () => {
             {data.map(current => {
                 return (
                     
-                    <div key={current.expenseid}>
+                    <div  key={current.expenseid}>
                         <h2>Expenseid: {current.expenseid}</h2>
                         <h2>Name: {current.name}</h2>
                         <h2>Cost: {current.cost}</h2>
