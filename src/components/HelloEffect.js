@@ -3,32 +3,39 @@ import { useState, useEffect } from "react";
 import axios from 'axios';
 function HelloEffect() {
     const baseURL = "https://swapi.py4e.com/api/people/1/";
-    const[films, setFilms] = React.useState(null);
-    const [star, setStar] = React.useState(null);
+    const[films, setFilms] = useState(null);
+    const [star, setStar] = useState(null);
 
-    React.useEffect(() =>{
+    useEffect(() =>{
         axios.get(baseURL).then((response)=>{
             setStar(response.data);
             setFilms(response.data.films);
         });
     },[]);
     if(!star) return <h1>No Data</h1>;
-    return <div>
-        <center>
+    return <div className='container'>
+        <div className='row'>
+        <div className='col-6'>
+
+            
             <p>{star.name}</p>
             <p>{star.mass}</p>
-
+            
+            </div>
+            <div className='col-6 bg-primary'>
             <p>
-                {films.map(current => {
+                {films.map(current => {                                                                              
                     return(
-                        <ul className='liwidth' key={current}>
-                            <li><a target={"_blank"} href={current}>{current}</a>
-                            </li>
-                        </ul>
+                        <table className='liwidth' key={current}>
+                            <tr><td><a className='btn btn-success' target={"_blank"} href={current}>{current}</a>
+                            </td></tr>
+                            </table>
                     );
                 })}
             </p>
-        </center>
+            </div>
+        
+        </div>
     </div>;
 }
 export default HelloEffect;

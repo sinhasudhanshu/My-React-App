@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import React, { useEffect, useState } from 'react';
+//import HelloWorld from './components/HelloWorld';
 
 //import UpdateBank from './components/UpdateBank';
 //import ArrayBook from './components/ArrayBook'
@@ -9,6 +10,8 @@ import React, { useEffect, useState } from 'react';
 //import UpdateArray from './components/UpdateArrayTrain';
 //import ExpenseCalculatar from './components/ExpenseCalculatar';
 import HelloEffect from './components/HelloEffect';
+import EffectTest from './components/EffectTest';
+// import HelloEffect from './components/HelloEffect';
 
 function App(props) {
  return(
@@ -16,7 +19,9 @@ function App(props) {
       
   <h2>API</h2>
   <div className="App">
-        <HelloEffect/>
+ 
+        <EffectTest/>
+<HelloEffect/>
            </div>
        
   
