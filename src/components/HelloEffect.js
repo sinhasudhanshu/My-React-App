@@ -11,7 +11,7 @@ function HelloEffect() {
             setStar(response.data);
             setFilms(response.data.films);
         });
-    },[]);
+    },[]); 
     if(!star) return <h1>No Data</h1>;
     return <div className='container'>
         <div className='row'>
