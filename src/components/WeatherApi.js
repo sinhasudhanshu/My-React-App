@@ -19,6 +19,10 @@ function WeatherApi() {
            
             // setWeather(temp);
             
+        }).catch(error => {
+            
+            setCity(['No Data']);
+            
         });
     }, [apicity]);
     const clickHandler = (event) => {
@@ -39,11 +43,12 @@ setApicity(city);
         <center>
             <h1>{city}</h1>
            {apicity}
+           <h1>{weather}</h1>
             <input type="text" onChange={cityChangeHandler1}/>
             <input type='submit' value="Submit"  onClick={clickHandler}/>
             
         </center>
     </div>
-    
+
 }
 export default WeatherApi;

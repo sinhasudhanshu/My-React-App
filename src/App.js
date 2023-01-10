@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import React, { useEffect, useState } from 'react';
-import HelloEffects from './components/HelloEffects';
+//import HelloEffects from './components/HelloEffects';
 import WeatherApi from './components/WeatherApi';
 
 //import WeatherApiCity from './components/WeatherApiCity';
@@ -21,7 +21,7 @@ import WeatherApi from './components/WeatherApi';
 function App(props) {
  return(
      <center>
-      <HelloEffects/>
+     
       
   <h2>API</h2>
   <div className="App">
