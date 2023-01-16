@@ -1,37 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import MyButtons from './components/MyButtons';
+function App() {
+    return (<div>
 
-import React, { useEffect, useState } from 'react';
-//import HelloEffects from './components/HelloEffects';
-import WeatherApi from './components/WeatherApi';
+        <center>
+        <MyButtons />
+        </center>
 
-//import WeatherApiCity from './components/WeatherApiCity';
-//import Abc from './components/Abc';
-//import HelloWorld from './components/HelloWorld';
-
-//import UpdateBank from './components/UpdateBank';
-//import ArrayBook from './components/ArrayBook'
-//import ArrayUpdate from './components/ArrayUpdate';
-//import UpdateArray from './components/UpdateArrayTrain';
-//import ExpenseCalculatar from './components/ExpenseCalculatar';
-//import HelloEffect from './components/HelloEffect';
-//import EffectTest from './components/EffectTest';
-// import HelloEffect from './components/HelloEffect';
-
-function App(props) {
- return(
-     <center>
-     
-      
-  <h2>API</h2>
-  <div className="App">
- 
-        <WeatherApi/>
-        
-           </div>
-       
-  
-  </center>
- );
+    </div>
+    );
 }
 export default App;
