@@ -12,6 +12,7 @@ function MyButtons() {
             <Button variant="contained">Contained</Button>
 
             <Button variant="outlined">Outlined</Button>
+            
 
 
         </div>
@@ -19,3 +20,4 @@ function MyButtons() {
 }
 
 export default MyButtons;
+
