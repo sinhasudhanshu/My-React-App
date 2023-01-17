@@ -4,7 +4,8 @@ import './App.css';
 //import MyCheckboxColor from './components/MyCheckboxColor';
 //import MyFloatingButton from './components/MyFloatingButton';
 //import MyRadioButton from './components/MyRadioButton';
-import Ratingbutton from './components/RatingButton';
+//import Ratingbutton from './components/RatingButton';
+import SelectButton from './components/SelectButton';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -14,7 +15,7 @@ function App() {
 
         <center>
        
-       <Ratingbutton/>
+       <SelectButton/>
         
         </center>
 
