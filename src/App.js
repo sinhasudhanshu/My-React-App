@@ -8,7 +8,8 @@ import './App.css';
 //import SelectButton from './components/SelectButton';
 //import SelectButtons from './components/SelectButtons';
 //import MultipleSelectNative from './components/MultipleSelectNative';
-import SliderButton from './components/SliderButton';
+//import SliderButton from './components/SliderButton';
+import SliderVolumeButton from './components/SliderVolumeButton';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -18,7 +19,7 @@ function App() {
 
         <center>
        
-       <SliderButton/>
+       <SliderVolumeButton/>
         
         </center>
 
