@@ -9,7 +9,9 @@ import './App.css';
 //import SelectButtons from './components/SelectButtons';
 //import MultipleSelectNative from './components/MultipleSelectNative';
 //import SliderButton from './components/SliderButton';
-import SliderVolumeButton from './components/SliderVolumeButton';
+//import SliderVolumeButton from './components/SliderVolumeButton';
+//import BasicSwitchButton from './components/BasicSwitchButton';
+import SwitchColor from './components/SwitchColor';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -19,7 +21,7 @@ function App() {
 
         <center>
        
-       <SliderVolumeButton/>
+       <SwitchColor/>
         
         </center>
 
