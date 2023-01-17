@@ -13,7 +13,8 @@ import './App.css';
 //import BasicSwitchButton from './components/BasicSwitchButton';
 //import SwitchColor from './components/Switch
 //import TextFields from './components/TextFields';
-import TransferLists from './components/TransferLists';
+//import TransferLists from './components/TransferLists';
+import TransferList from './components/TransferList';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -23,7 +24,7 @@ function App() {
 
         <center>
        
-       <TransferLists/>
+       <TransferList/>
         
         </center>
 
