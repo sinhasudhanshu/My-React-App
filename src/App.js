@@ -7,7 +7,8 @@ import './App.css';
 //import Ratingbutton from './components/RatingButton';
 //import SelectButton from './components/SelectButton';
 //import SelectButtons from './components/SelectButtons';
-import MultipleSelectNative from './components/MultipleSelectNative';
+//import MultipleSelectNative from './components/MultipleSelectNative';
+import SliderButton from './components/SliderButton';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -17,7 +18,7 @@ function App() {
 
         <center>
        
-       <MultipleSelectNative/>
+       <SliderButton/>
         
         </center>
 
