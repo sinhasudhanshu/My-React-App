@@ -5,7 +5,8 @@ import './App.css';
 //import MyFloatingButton from './components/MyFloatingButton';
 //import MyRadioButton from './components/MyRadioButton';
 //import Ratingbutton from './components/RatingButton';
-import SelectButton from './components/SelectButton';
+//import SelectButton from './components/SelectButton';
+import SelectButtons from './components/SelectButtons';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -15,7 +16,7 @@ function App() {
 
         <center>
        
-       <SelectButton/>
+       <SelectButtons/>
         
         </center>
 
