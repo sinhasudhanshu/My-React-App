@@ -11,7 +11,8 @@ import './App.css';
 //import SliderButton from './components/SliderButton';
 //import SliderVolumeButton from './components/SliderVolumeButton';
 //import BasicSwitchButton from './components/BasicSwitchButton';
-import SwitchColor from './components/SwitchColor';
+//import SwitchColor from './components/Switch
+import TextFields from './components/TextFields';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -21,7 +22,7 @@ function App() {
 
         <center>
        
-       <SwitchColor/>
+       <TextFields/>
         
         </center>
 
