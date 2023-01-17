@@ -6,7 +6,8 @@ import './App.css';
 //import MyRadioButton from './components/MyRadioButton';
 //import Ratingbutton from './components/RatingButton';
 //import SelectButton from './components/SelectButton';
-import SelectButtons from './components/SelectButtons';
+//import SelectButtons from './components/SelectButtons';
+import MultipleSelectNative from './components/MultipleSelectNative';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -16,7 +17,7 @@ function App() {
 
         <center>
        
-       <SelectButtons/>
+       <MultipleSelectNative/>
         
         </center>
 
