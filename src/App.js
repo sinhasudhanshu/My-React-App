@@ -12,7 +12,8 @@ import './App.css';
 //import SliderVolumeButton from './components/SliderVolumeButton';
 //import BasicSwitchButton from './components/BasicSwitchButton';
 //import SwitchColor from './components/Switch
-import TextFields from './components/TextFields';
+//import TextFields from './components/TextFields';
+import TransferLists from './components/TransferLists';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -22,7 +23,7 @@ function App() {
 
         <center>
        
-       <TextFields/>
+       <TransferLists/>
         
         </center>
 
