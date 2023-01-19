@@ -30,9 +30,11 @@ import './App.css';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 //import BasicTable from './components/BasicTable';
 //import DataTablee from './components/DataTablee';
-import BasicTooltip from './components/BasicTooltip';
-import PositionedTooltips from './components/PositionedTooltip';
-import CustomizedTooltips from './components/CustomizedTooltip';
+// import BasicTooltip from './components/BasicTooltip';
+// import PositionedTooltips from './components/PositionedTooltip';
+// import CustomizedTooltips from './components/CustomizedTooltip';
+import TypoGraaphFunction from './components/TypoGraaphFunction';
+import TypographyTheme from './components/TypegraphTheme';
 
 
 function App() {
@@ -40,10 +42,11 @@ function App() {
 
 
         <center>
-        <BasicTooltip/>
-        <PositionedTooltips/>
-        <br></br>
-        <CustomizedTooltips/>
+        
+        <TypographyTheme/>
+        <br></br><br></br><br></br><br></br>
+        <TypoGraaphFunction/>
+        
         </center>
 
     </div>
