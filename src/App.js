@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import NestedLists from './components/NestedLists';
-import InteractiveLists from './components/IntereactiveLists';
+//import NestedLists from './components/NestedLists';
+//import InteractiveLists from './components/IntereactiveLists';
 //import MyCheckbox from './components/MyCheckbox';
 //import MyCheckboxColor from './components/MyCheckboxColor';
 //import MyFloatingButton from './components/MyFloatingButton';
@@ -28,6 +28,9 @@ import InteractiveLists from './components/IntereactiveLists';
 // import ColorIcon from './components/ColorIcon';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
+import BasicTable from './components/BasicTable';
+import DataTablee from './components/DataTablee';
+
 
 function App() {
     return (<div>
@@ -35,8 +38,8 @@ function App() {
 
         <center>
 
-            <NestedLists/>
-            <InteractiveLists/>
+            <BasicTable/>
+            <DataTablee/>
         </center>
 
     </div>
