@@ -18,7 +18,9 @@ import './App.css';
 //import IconAvatars from './components/IconAvatars';
 //import LetterAvatars from './components/LetterAvatars';
 //import BasicBadge from './components/BasicBadge';
-import BadgeVisibility from './components/BadgeVisibility';
+//import BadgeVisibility from './components/BadgeVisibility';
+import ChipClickButton from './components/ChipClickButton';
+import ChipDeleteButton from './components/ChipDeleteButton';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -28,8 +30,8 @@ function App() {
 
         <center>
 
-            <BadgeVisibility />
-
+            <ChipDeleteButton/>
+            <ChipClickButton/>
         </center>
 
     </div>
