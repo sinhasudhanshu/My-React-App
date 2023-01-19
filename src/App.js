@@ -28,8 +28,11 @@ import './App.css';
 // import ColorIcon from './components/ColorIcon';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
-import BasicTable from './components/BasicTable';
-import DataTablee from './components/DataTablee';
+//import BasicTable from './components/BasicTable';
+//import DataTablee from './components/DataTablee';
+import BasicTooltip from './components/BasicTooltip';
+import PositionedTooltips from './components/PositionedTooltip';
+import CustomizedTooltips from './components/CustomizedTooltip';
 
 
 function App() {
@@ -37,9 +40,10 @@ function App() {
 
 
         <center>
-
-            <BasicTable/>
-            <DataTablee/>
+        <BasicTooltip/>
+        <PositionedTooltips/>
+        <br></br>
+        <CustomizedTooltips/>
         </center>
 
     </div>
