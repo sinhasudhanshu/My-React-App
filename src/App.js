@@ -35,8 +35,12 @@ import './App.css';
 // import CustomizedTooltips from './components/CustomizedTooltip';
 // import TypoGraaphFunction from './components/TypoGraaphFunction';
 // import TypographyTheme from './components/TypegraphTheme';
-import BasicAlerts from './components/BasicAlerts';
-import DescriptionAlerts from './components/DescriptionAlerts';
+// import BasicAlerts from './components/BasicAlerts';
+// import DescriptionAlerts from './components/DescriptionAlerts';
+//import SimpleBackdrop from './components/SimpleBackDrop';
+import BasicDialog from './components/BasicDialog';
+import FormDialog from './components/FormDialog';
+import FullscreenDialog from './components/FullscreenDialog';
 
 
 function App() {
@@ -45,10 +49,10 @@ function App() {
 
         <center>
         
-        <BasicAlerts/>
-        <br></br><br></br><br></br><br></br>
-        <DescriptionAlerts/>
-        
+        <BasicDialog/>
+        <br></br>
+        <FormDialog/>
+        <FullscreenDialog/>
         </center>
 
     </div>
