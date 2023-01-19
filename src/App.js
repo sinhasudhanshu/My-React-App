@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import NestedLists from './components/NestedLists';
+import InteractiveLists from './components/IntereactiveLists';
 //import MyCheckbox from './components/MyCheckbox';
 //import MyCheckboxColor from './components/MyCheckboxColor';
 //import MyFloatingButton from './components/MyFloatingButton';
@@ -19,11 +21,11 @@ import './App.css';
 //import LetterAvatars from './components/LetterAvatars';
 //import BasicBadge from './components/BasicBadge';
 //import BadgeVisibility from './components/BadgeVisibility';
-import ChipClickButton from './components/ChipClickButton';
-import ChipDeleteButton from './components/ChipDeleteButton';
-import InsetDividers from './components/InsetDividers';
-import MaterialsIcon from './components/MeterialsIcon';
-import ColorIcon from './components/ColorIcon';
+// import ChipClickButton from './components/ChipClickButton';
+// import ChipDeleteButton from './components/ChipDeleteButton';
+// import InsetDividers from './components/InsetDividers';
+// import MaterialsIcon from './components/MeterialsIcon';
+// import ColorIcon from './components/ColorIcon';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -33,11 +35,8 @@ function App() {
 
         <center>
 
-            <ChipDeleteButton/>
-            <ChipClickButton/>
-            <InsetDividers/>
-            <MaterialsIcon/>
-            <ColorIcon/>
+            <NestedLists/>
+            <InteractiveLists/>
         </center>
 
     </div>
