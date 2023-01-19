@@ -16,7 +16,9 @@ import './App.css';
 //import TransferLists from './components/TransferLists';
 //import TransferList from './components/TransferList';
 //import IconAvatars from './components/IconAvatars';
-import LetterAvatars from './components/LetterAvatars';
+//import LetterAvatars from './components/LetterAvatars';
+//import BasicBadge from './components/BasicBadge';
+import BadgeVisibility from './components/BadgeVisibility';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -25,9 +27,9 @@ function App() {
 
 
         <center>
-       
-       <LetterAvatars/>
-        
+
+            <BadgeVisibility />
+
         </center>
 
     </div>
