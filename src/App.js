@@ -15,7 +15,8 @@ import './App.css';
 //import TextFields from './components/TextFields';
 //import TransferLists from './components/TransferLists';
 //import TransferList from './components/TransferList';
-import ToggleeButton from './components/ToggleeButton';
+//import IconAvatars from './components/IconAvatars';
+import LetterAvatars from './components/LetterAvatars';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -25,7 +26,7 @@ function App() {
 
         <center>
        
-       <ToggleeButton/>
+       <LetterAvatars/>
         
         </center>
 
