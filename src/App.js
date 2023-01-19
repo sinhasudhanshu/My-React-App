@@ -33,8 +33,10 @@ import './App.css';
 // import BasicTooltip from './components/BasicTooltip';
 // import PositionedTooltips from './components/PositionedTooltip';
 // import CustomizedTooltips from './components/CustomizedTooltip';
-import TypoGraaphFunction from './components/TypoGraaphFunction';
-import TypographyTheme from './components/TypegraphTheme';
+// import TypoGraaphFunction from './components/TypoGraaphFunction';
+// import TypographyTheme from './components/TypegraphTheme';
+import BasicAlerts from './components/BasicAlerts';
+import DescriptionAlerts from './components/DescriptionAlerts';
 
 
 function App() {
@@ -43,9 +45,9 @@ function App() {
 
         <center>
         
-        <TypographyTheme/>
+        <BasicAlerts/>
         <br></br><br></br><br></br><br></br>
-        <TypoGraaphFunction/>
+        <DescriptionAlerts/>
         
         </center>
 
