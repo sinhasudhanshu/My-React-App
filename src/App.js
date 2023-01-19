@@ -21,6 +21,7 @@ import './App.css';
 //import BadgeVisibility from './components/BadgeVisibility';
 import ChipClickButton from './components/ChipClickButton';
 import ChipDeleteButton from './components/ChipDeleteButton';
+import InsetDividers from './components/InsetDividers';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -32,6 +33,7 @@ function App() {
 
             <ChipDeleteButton/>
             <ChipClickButton/>
+            <InsetDividers/>
         </center>
 
     </div>
