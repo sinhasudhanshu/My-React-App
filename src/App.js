@@ -22,6 +22,8 @@ import './App.css';
 import ChipClickButton from './components/ChipClickButton';
 import ChipDeleteButton from './components/ChipDeleteButton';
 import InsetDividers from './components/InsetDividers';
+import MaterialsIcon from './components/MeterialsIcon';
+import ColorIcon from './components/ColorIcon';
 //import MyButtons from './components/MyButtons';
 //import MyButtonsGroup from './components/MyButtonsGroup';
 
@@ -34,6 +36,8 @@ function App() {
             <ChipDeleteButton/>
             <ChipClickButton/>
             <InsetDividers/>
+            <MaterialsIcon/>
+            <ColorIcon/>
         </center>
 
     </div>
