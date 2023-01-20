@@ -38,9 +38,13 @@ import './App.css';
 // import BasicAlerts from './components/BasicAlerts';
 // import DescriptionAlerts from './components/DescriptionAlerts';
 //import SimpleBackdrop from './components/SimpleBackDrop';
-import BasicDialog from './components/BasicDialog';
-import FormDialog from './components/FormDialog';
-import FullscreenDialog from './components/FullscreenDialog';
+// import BasicDialog from './components/BasicDialog';
+// import FormDialog from './components/FormDialog';
+// import FullscreenDialog from './components/FullscreenDialog';
+import ProgressCircular from './components/ProgressCircular';
+import ProgressInterective from './components/ProgressInterective';
+import ProgressStatic from './components/ProgressStatic';
+
 
 
 function App() {
@@ -49,10 +53,9 @@ function App() {
 
         <center>
         
-        <BasicDialog/>
-        <br></br>
-        <FormDialog/>
-        <FullscreenDialog/>
+        <ProgressCircular/>
+        <ProgressInterective/>
+        <ProgressStatic/>
         </center>
 
     </div>
