@@ -52,8 +52,10 @@ import './App.css';
 // import AccordionCustomized from './components/AccordionCustomized';
 // import BasicCard from './components/BasicCard';
 // import OutlineCard from './components/OutlineCard';
-import SimpleBottomNavigation from './components/SimpleBottomNavigation';
-import LabelBottomNavigation from './components/LabelBottomNavigation';
+// import SimpleBottomNavigation from './components/SimpleBottomNavigation';
+// import LabelBottomNavigation from './components/LabelBottomNavigation';
+import BasicBreadcrumbs from './components/BasicBreadcrums';
+import CustomBreadcrums from './components/CustomBreadcrums';
 
 
 
@@ -63,9 +65,9 @@ function App() {
 
         <center>
          
-       <SimpleBottomNavigation/>
-       <br></br><br></br><br></br><br></br>
-       <LabelBottomNavigation/>
+      <BasicBreadcrumbs/>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <CustomBreadcrums/>
         </center>
 
     </div>
