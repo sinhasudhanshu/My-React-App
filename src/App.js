@@ -7,7 +7,9 @@ import './App.css';
 // import PaginationOutlined from './components/PaginationOutlined';
 // import PaginationBasic from './components/PaginationBasic';
 import StepperLinear from './components/StepperLinear';
-import StepperNonLinear from './components/StepperNonLinear';
+import StepperNonLinear from './components/TabsBasic';
+import BasicTabs from './components/TabsBasic';
+import ScrollableTabs from './components/ScrollableTabs';
 
 function App() {
     return (<div>
@@ -15,8 +17,9 @@ function App() {
 
         <center>
          
-        <StepperLinear/>
+        <BasicTabs/>
         <br></br>
+        <ScrollableTabs/>
         
         </center>
 
