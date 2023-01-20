@@ -4,11 +4,8 @@ import './App.css';
 // import Links from './components/Links';
 // import IconMenu from './components/IconMenu';
 // import DenseMenu from './components/DenseMenu';
-// import PaginationOutlined from './components/PaginationOutlined';
-// import PaginationBasic from './components/PaginationBasic';
-import SpeedDialBasic from './components/SpeedDialBasic';
-import SpeedDialTooltipOpen from './components/SpeedDialTooltipOpen';
-
+import PaginationOutlined from './components/PaginationOutlined';
+import PaginationBasic from './components/PaginationBasic';
 
 function App() {
     return (<div>
@@ -16,9 +13,9 @@ function App() {
 
         <center>
          
-        <SpeedDialBasic/>
+        <PaginationOutlined/>
         <br></br><br></br>
-       <SpeedDialTooltipOpen/>
+        <PaginationBasic/>
         </center>
 
     </div>
