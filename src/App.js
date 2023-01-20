@@ -41,9 +41,11 @@ import './App.css';
 // import BasicDialog from './components/BasicDialog';
 // import FormDialog from './components/FormDialog';
 // import FullscreenDialog from './components/FullscreenDialog';
-import ProgressCircular from './components/ProgressCircular';
-import ProgressInterective from './components/ProgressInterective';
-import ProgressStatic from './components/ProgressStatic';
+// import ProgressCircular from './components/ProgressCircular';
+// import ProgressInterective from './components/ProgressInterective';
+// import ProgressStatic from './components/ProgressStatic';
+import SkeletonYouTube from './components/SkeletonYoutube';
+import SkeletonFacebook from './components/SkeletonFacebook';
 
 
 
@@ -53,9 +55,9 @@ function App() {
 
         <center>
         
-        <ProgressCircular/>
-        <ProgressInterective/>
-        <ProgressStatic/>
+        <SkeletonYouTube/>
+        <br></br>
+        <SkeletonFacebook/>
         </center>
 
     </div>
