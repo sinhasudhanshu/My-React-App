@@ -54,8 +54,9 @@ import './App.css';
 // import OutlineCard from './components/OutlineCard';
 // import SimpleBottomNavigation from './components/SimpleBottomNavigation';
 // import LabelBottomNavigation from './components/LabelBottomNavigation';
-import BasicBreadcrumbs from './components/BasicBreadcrums';
-import CustomBreadcrums from './components/CustomBreadcrums';
+// import BasicBreadcrumbs from './components/BasicBreadcrums';
+// import CustomBreadcrums from './components/CustomBreadcrums';
+import SimplePaper from './components/SimplePaper';
 
 
 
@@ -65,9 +66,7 @@ function App() {
 
         <center>
          
-      <BasicBreadcrumbs/>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <CustomBreadcrums/>
+      <SimplePaper/>
         </center>
 
     </div>
