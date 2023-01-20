@@ -9,8 +9,10 @@ import './App.css';
 // import PopperPositioned from './components/PopperPositioned';
 // import TransitionSimpleCollapse from './components/TransitionSimpleCollapse';
 // import TransitionGroupExample from './components/TransitionGroupExample';
-import DataGridDemo from './components/DataGridDemo';
-import DataGridProDemo from './components/DataGridProDemo';
+// import DataGridDemo from './components/DataGridDemo';
+// import DataGridProDemo from './components/DataGridProDemo';
+import DatendTimePickers from './components/DatendTimePickers';
+import DateTimePickers from './components/DateTimePickers';
 
 function App() {
     return (<div>
@@ -18,10 +20,10 @@ function App() {
 
         <center>
 
-        <DataGridDemo/>
-        <br></br>
-        <DataGridProDemo/>
-          
+        <DatendTimePickers/>
+        <br>
+        </br>
+        <DateTimePickers/>  
         </center>
 
     </div>
