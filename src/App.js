@@ -11,14 +11,19 @@ import './App.css';
 // import BasicTabs from './components/TabsBasic';
 // import ScrollableTabs from './components/ScrollableTabs';
 // import BoxSx from './components/BoxSx';
-import SimpleContainer from './components/SimpleContainer';
+// import SimpleContainer from './components/SimpleContainer';
+import GridBasic from './components/GridBasic';
+import GridSpacing from './components/GridSpacing';
 
 function App() {
     return (<div>
 
 
         <center>
-       <SimpleContainer/>
+        <GridBasic/>
+        <br></br>
+        <tr></tr>
+        <GridSpacing/>
         
         </center>
 
