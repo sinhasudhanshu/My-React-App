@@ -57,6 +57,7 @@ import './App.css';
 // import BasicBreadcrumbs from './components/BasicBreadcrums';
 // import CustomBreadcrums from './components/CustomBreadcrums';
 import SimplePaper from './components/SimplePaper';
+import TemporaryDrawer from './components/TemporaryDrawer';
 
 
 
@@ -66,7 +67,7 @@ function App() {
 
         <center>
          
-      <SimplePaper/>
+        <TemporaryDrawer/>
         </center>
 
     </div>
