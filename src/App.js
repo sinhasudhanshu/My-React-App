@@ -6,20 +6,18 @@ import './App.css';
 // import DenseMenu from './components/DenseMenu';
 // import PaginationOutlined from './components/PaginationOutlined';
 // import PaginationBasic from './components/PaginationBasic';
-import StepperLinear from './components/StepperLinear';
-import StepperNonLinear from './components/TabsBasic';
-import BasicTabs from './components/TabsBasic';
-import ScrollableTabs from './components/ScrollableTabs';
+// import StepperLinear from './components/StepperLinear';
+// import StepperNonLinear from './components/TabsBasic';
+// import BasicTabs from './components/TabsBasic';
+// import ScrollableTabs from './components/ScrollableTabs';
+import BoxSx from './components/BoxSx';
 
 function App() {
     return (<div>
 
 
         <center>
-         
-        <BasicTabs/>
-        <br></br>
-        <ScrollableTabs/>
+       <BoxSx/>
         
         </center>
 
