@@ -7,8 +7,10 @@ import './App.css';
 // import WovenImageList from './components/WovenImageList';
 // import PopperBasic from './components/PopperBasic';
 // import PopperPositioned from './components/PopperPositioned';
-import TransitionSimpleCollapse from './components/TransitionSimpleCollapse';
-import TransitionGroupExample from './components/TransitionGroupExample';
+// import TransitionSimpleCollapse from './components/TransitionSimpleCollapse';
+// import TransitionGroupExample from './components/TransitionGroupExample';
+import DataGridDemo from './components/DataGridDemo';
+import DataGridProDemo from './components/DataGridProDemo';
 
 function App() {
     return (<div>
@@ -16,9 +18,9 @@ function App() {
 
         <center>
 
-          <TransitionSimpleCollapse/>
-          <br></br>
-          <TransitionGroupExample/>
+        <DataGridDemo/>
+        <br></br>
+        <DataGridProDemo/>
           
         </center>
 
