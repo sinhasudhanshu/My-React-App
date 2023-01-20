@@ -11,8 +11,9 @@ import './App.css';
 // import TransitionGroupExample from './components/TransitionGroupExample';
 // import DataGridDemo from './components/DataGridDemo';
 // import DataGridProDemo from './components/DataGridProDemo';
-import DatendTimePickers from './components/DatendTimePickers';
-import DateTimePickers from './components/DateTimePickers';
+// import DatendTimePickers from './components/DatendTimePickers';
+// import DateTimePickers from './components/DateTimePickers';
+import ImageMasonry from './components/ImageMasonry';
 
 function App() {
     return (<div>
@@ -20,10 +21,8 @@ function App() {
 
         <center>
 
-        <DatendTimePickers/>
-        <br>
-        </br>
-        <DateTimePickers/>  
+        <ImageMasonry/> 
+
         </center>
 
     </div>
