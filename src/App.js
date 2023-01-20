@@ -50,8 +50,10 @@ import './App.css';
 // import AccordionBasic from './components/AccordionBasic';
 // import AccordionControlled from './components/AccordionControlled';
 // import AccordionCustomized from './components/AccordionCustomized';
-import BasicCard from './components/BasicCard';
-import OutlineCard from './components/OutlineCard';
+// import BasicCard from './components/BasicCard';
+// import OutlineCard from './components/OutlineCard';
+import SimpleBottomNavigation from './components/SimpleBottomNavigation';
+import LabelBottomNavigation from './components/LabelBottomNavigation';
 
 
 
@@ -61,9 +63,9 @@ function App() {
 
         <center>
          
-       <BasicCard/>
+       <SimpleBottomNavigation/>
        <br></br><br></br><br></br><br></br>
-       <OutlineCard/>
+       <LabelBottomNavigation/>
         </center>
 
     </div>
