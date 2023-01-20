@@ -44,8 +44,11 @@ import './App.css';
 // import ProgressCircular from './components/ProgressCircular';
 // import ProgressInterective from './components/ProgressInterective';
 // import ProgressStatic from './components/ProgressStatic';
-import SkeletonYouTube from './components/SkeletonYoutube';
-import SkeletonFacebook from './components/SkeletonFacebook';
+// import SkeletonYouTube from './components/SkeletonYoutube';
+// import SkeletonFacebook from './components/SkeletonFacebook';
+import AccordionBasic from './components/AccordionBasic';
+import AccordionControlled from './components/AccordionControlled';
+import AccordionCustomized from './components/AccordionCustomized';
 
 
 
@@ -55,9 +58,11 @@ function App() {
 
         <center>
         
-        <SkeletonYouTube/>
+        <AccordionBasic/>
         <br></br>
-        <SkeletonFacebook/>
+        <AccordionControlled/>
+        <br></br><br></br><br></br><br></br>
+        <AccordionCustomized/>
         </center>
 
     </div>
