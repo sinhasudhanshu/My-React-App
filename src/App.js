@@ -10,14 +10,15 @@ import './App.css';
 // import StepperNonLinear from './components/TabsBasic';
 // import BasicTabs from './components/TabsBasic';
 // import ScrollableTabs from './components/ScrollableTabs';
-import BoxSx from './components/BoxSx';
+// import BoxSx from './components/BoxSx';
+import SimpleContainer from './components/SimpleContainer';
 
 function App() {
     return (<div>
 
 
         <center>
-       <BoxSx/>
+       <SimpleContainer/>
         
         </center>
 
