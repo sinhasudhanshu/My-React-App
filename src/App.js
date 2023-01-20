@@ -56,8 +56,9 @@ import './App.css';
 // import LabelBottomNavigation from './components/LabelBottomNavigation';
 // import BasicBreadcrumbs from './components/BasicBreadcrums';
 // import CustomBreadcrums from './components/CustomBreadcrums';
-import SimplePaper from './components/SimplePaper';
-import TemporaryDrawer from './components/TemporaryDrawer';
+// import SimplePaper from './components/SimplePaper';
+// import TemporaryDrawer from './components/TemporaryDrawer';
+import Links from './components/Links';
 
 
 
@@ -67,7 +68,7 @@ function App() {
 
         <center>
          
-        <TemporaryDrawer/>
+        < Links/>
         </center>
 
     </div>
