@@ -50,10 +50,8 @@ import './App.css';
 // import AccordionBasic from './components/AccordionBasic';
 // import AccordionControlled from './components/AccordionControlled';
 // import AccordionCustomized from './components/AccordionCustomized';
-
-import AppBarBasic from './components/AppBarBasic';
-import AppBarSearch from './components/AppBarSearch';
-import AppBarPrimary from './components/BasicCard';
+import BasicCard from './components/BasicCard';
+import OutlineCard from './components/OutlineCard';
 
 
 
@@ -63,11 +61,9 @@ function App() {
 
         <center>
          
-        <AppBarBasic/>
-        <br></br><br></br><br></br><br></br>
-        <AppBarSearch/>
-        <br></br><br></br><br></br><br></br>
-       
+       <BasicCard/>
+       <br></br><br></br><br></br><br></br>
+       <OutlineCard/>
         </center>
 
     </div>
