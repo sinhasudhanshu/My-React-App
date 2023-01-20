@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+
 //import NestedLists from './components/NestedLists';
 //import InteractiveLists from './components/IntereactiveLists';
 //import MyCheckbox from './components/MyCheckbox';
@@ -46,9 +47,13 @@ import './App.css';
 // import ProgressStatic from './components/ProgressStatic';
 // import SkeletonYouTube from './components/SkeletonYoutube';
 // import SkeletonFacebook from './components/SkeletonFacebook';
-import AccordionBasic from './components/AccordionBasic';
-import AccordionControlled from './components/AccordionControlled';
-import AccordionCustomized from './components/AccordionCustomized';
+// import AccordionBasic from './components/AccordionBasic';
+// import AccordionControlled from './components/AccordionControlled';
+// import AccordionCustomized from './components/AccordionCustomized';
+
+import AppBarBasic from './components/AppBarBasic';
+import AppBarSearch from './components/AppBarSearch';
+import AppBarPrimary from './components/BasicCard';
 
 
 
@@ -57,12 +62,12 @@ function App() {
 
 
         <center>
-        
-        <AccordionBasic/>
-        <br></br>
-        <AccordionControlled/>
+         
+        <AppBarBasic/>
         <br></br><br></br><br></br><br></br>
-        <AccordionCustomized/>
+        <AppBarSearch/>
+        <br></br><br></br><br></br><br></br>
+       
         </center>
 
     </div>
