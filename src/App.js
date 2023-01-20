@@ -5,8 +5,10 @@ import './App.css';
 // import StackDivider from './components/StackDivider';
 // import StandardImageList from './components/StandarImageList';
 // import WovenImageList from './components/WovenImageList';
-import PopperBasic from './components/PopperBasic';
-import PopperPositioned from './components/PopperPositioned';
+// import PopperBasic from './components/PopperBasic';
+// import PopperPositioned from './components/PopperPositioned';
+import TransitionSimpleCollapse from './components/TransitionSimpleCollapse';
+import TransitionGroupExample from './components/TransitionGroupExample';
 
 function App() {
     return (<div>
@@ -14,10 +16,10 @@ function App() {
 
         <center>
 
-          <PopperBasic/>
-          <br></br><br></br><br></br>
-          <PopperPositioned/>
-        
+          <TransitionSimpleCollapse/>
+          <br></br>
+          <TransitionGroupExample/>
+          
         </center>
 
     </div>
