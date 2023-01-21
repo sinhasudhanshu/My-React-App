@@ -14,8 +14,12 @@ import './App.css';
 // import DatendTimePickers from './components/DatendTimePickers';
 // import DateTimePickers from './components/DateTimePickers';
 // import ImageMasonry from './components/ImageMasonry';
-import TimelineLeftPositioned from './components/TimelineLeftPositioned';
-import TimelineAlternate from './components/TimelineAlternate';
+// import TimelineLeftPositioned from './components/TimelineLeftPositioned';
+// import TimelineAlternate from './components/TimelineAlternate';
+import TreeViewMultiSelect from './components/TreeViewMultiSelect';
+import TreeViewControlled from './components/TreeViewControlled';
+import TreeViewGmail from './components/TreeViewGmail';
+
 
 function App() {
     return (<div>
@@ -23,9 +27,11 @@ function App() {
 
         <center>
 
-        <TimelineLeftPositioned/>
-        <br></br>
-        <TimelineAlternate/>
+       < TreeViewMultiSelect/>
+       <br></br>
+       <TreeViewControlled/>
+       <br></br>
+       <TreeViewGmail/>
 
         </center>
 
