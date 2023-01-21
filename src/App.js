@@ -13,7 +13,9 @@ import './App.css';
 // import DataGridProDemo from './components/DataGridProDemo';
 // import DatendTimePickers from './components/DatendTimePickers';
 // import DateTimePickers from './components/DateTimePickers';
-import ImageMasonry from './components/ImageMasonry';
+// import ImageMasonry from './components/ImageMasonry';
+import TimelineLeftPositioned from './components/TimelineLeftPositioned';
+import TimelineAlternate from './components/TimelineAlternate';
 
 function App() {
     return (<div>
@@ -21,7 +23,9 @@ function App() {
 
         <center>
 
-        <ImageMasonry/> 
+        <TimelineLeftPositioned/>
+        <br></br>
+        <TimelineAlternate/>
 
         </center>
 
